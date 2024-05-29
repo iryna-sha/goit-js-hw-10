@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="flatpickr.min.css" />
+    <link rel="stylesheet" href="iziToast.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>1-timer</title>
+</head>
+
+<body>
+    <section>
+        <a href="./index.html">Go to home</a>
+    </section>
+
+    <input class="input" type="text" id="datetime-picker" />
+    <button class="button" type="button" data-start>Start</button>
+
+    <div class="timer">
+        <div class="field">
+            <span class="value" data-days>00</span>
+            <span class="label">DAYS</span>
+        </div>
+
+        <div class="field">
+            <span class="value" data-hours>00</span>
+            <span class="label">HOURS</span>
+        </div>
+
+        <div class="field">
+            <span class="value" data-minutes>00</span>
+            <span class="label">MINUTES</span>
+        </div>
+
+        <div class="field">
+            <span class="value" data-seconds>00</span>
+            <span class="label">SECONDS</span>
+        </div>
+    </div>
+
+    <script src="flatpickr.min.css" type="text/javascript"></script>
+    <script src="iziToast.min.js" type="text/javascript"></script>
+    <script type="module" src="./js/1-timer.js"></script>
+</body>
+
+</html>
